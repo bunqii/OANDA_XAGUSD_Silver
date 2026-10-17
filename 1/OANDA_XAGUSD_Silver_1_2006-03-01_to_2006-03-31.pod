@@ -1,0 +1,83 @@
+{
+  "pod_version": "4.0",
+  "instrument": "XAG_USD",
+  "granularity": "M1",
+  "chunk_start": "2006-03-01",
+  "chunk_end": "2006-03-31",
+  "parquet_file": "OANDA_XAGUSD_Silver_1_2006-03-01_to_2006-03-31.parquet",
+  "data_file": "OANDA_XAGUSD_Silver_1_2006-03-01_to_2006-03-31.parquet",
+  "row_count": 7454,
+  "first_candle": {
+    "time": 1142802300,
+    "Time": "2006-03-19T21:05:00.000000000Z",
+    "open": 10.365,
+    "high": 10.365,
+    "low": 10.365,
+    "close": 10.365,
+    "volume": 1
+  },
+  "last_candle": {
+    "time": 1143839100,
+    "Time": "2006-03-31T21:05:00.000000000Z",
+    "open": 11.518,
+    "high": 11.518,
+    "low": 11.518,
+    "close": 11.518,
+    "volume": 2
+  },
+  "csv_file": "OANDA_XAGUSD_Silver_1_2006-03-01_to_2006-03-31.parquet",
+  "csv_row_count": 7454,
+  "csv_first_candle": {
+    "time": 1142802300,
+    "Time": "2006-03-19T21:05:00.000000000Z",
+    "open": 10.365,
+    "high": 10.365,
+    "low": 10.365,
+    "close": 10.365,
+    "volume": 1
+  },
+  "csv_last_candle": {
+    "time": 1143839100,
+    "Time": "2006-03-31T21:05:00.000000000Z",
+    "open": 11.518,
+    "high": 11.518,
+    "low": 11.518,
+    "close": 11.518,
+    "volume": 2
+  },
+  "status": "VERIFIED",
+  "verified_at": "2026-10-16T03:04:48.000000000Z",
+  "generated_at": "2026-10-16T03:04:48.000000000Z",
+  "download_request": {
+    "total_api_blocks_in_run": 2165,
+    "chunk_api_blocks": 4,
+    "chunk_permanent_errors": 0,
+    "permanent_error_details": [],
+    "all_block_outcomes": [
+      {
+        "from": "2006-03-19T21:05:00Z",
+        "to": "2006-03-23T08:25:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2006-03-23T08:25:00Z",
+        "to": "2006-03-26T19:45:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2006-03-26T19:45:00Z",
+        "to": "2006-03-30T07:05:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2006-03-30T07:05:00Z",
+        "to": "2006-04-02T18:25:00Z",
+        "code": 200,
+        "msg": "OK"
+      }
+    ]
+  }
+}
