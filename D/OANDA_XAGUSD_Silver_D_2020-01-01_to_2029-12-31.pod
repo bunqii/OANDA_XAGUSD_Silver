@@ -1,0 +1,65 @@
+{
+  "pod_version": "4.0",
+  "instrument": "XAG_USD",
+  "granularity": "D",
+  "chunk_start": "2020-01-01",
+  "chunk_end": "2029-12-31",
+  "parquet_file": "OANDA_XAGUSD_Silver_D_2020-01-01_to_2029-12-31.parquet",
+  "data_file": "OANDA_XAGUSD_Silver_D_2020-01-01_to_2029-12-31.parquet",
+  "row_count": 1753,
+  "first_candle": {
+    "time": 1577916000,
+    "Time": "2020-01-01T22:00:00.000000000Z",
+    "open": 17.8825,
+    "high": 18.10138,
+    "low": 17.79138,
+    "close": 18.02544,
+    "volume": 5372
+  },
+  "last_candle": {
+    "time": 1792011600,
+    "Time": "2026-10-14T21:00:00.000000000Z",
+    "open": 55.582,
+    "high": 57.533,
+    "low": 55.4845,
+    "close": 57.415,
+    "volume": 318750
+  },
+  "csv_file": "OANDA_XAGUSD_Silver_D_2020-01-01_to_2029-12-31.parquet",
+  "csv_row_count": 1753,
+  "csv_first_candle": {
+    "time": 1577916000,
+    "Time": "2020-01-01T22:00:00.000000000Z",
+    "open": 17.8825,
+    "high": 18.10138,
+    "low": 17.79138,
+    "close": 18.02544,
+    "volume": 5372
+  },
+  "csv_last_candle": {
+    "time": 1792011600,
+    "Time": "2026-10-14T21:00:00.000000000Z",
+    "open": 55.582,
+    "high": 57.533,
+    "low": 55.4845,
+    "close": 57.415,
+    "volume": 318750
+  },
+  "status": "VERIFIED_PARTIAL",
+  "verified_at": "2026-10-16T03:06:47.000000000Z",
+  "generated_at": "2026-10-16T03:06:47.000000000Z",
+  "download_request": {
+    "total_api_blocks_in_run": 2,
+    "chunk_api_blocks": 1,
+    "chunk_permanent_errors": 0,
+    "permanent_error_details": [],
+    "all_block_outcomes": [
+      {
+        "from": "2019-11-26T22:00:00Z",
+        "to": "2026-10-15T21:00:00Z",
+        "code": 200,
+        "msg": "OK"
+      }
+    ]
+  }
+}
